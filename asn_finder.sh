@@ -21,7 +21,7 @@ process_domain() {
             if [ -z "$asn" ]; then
                 echo "No ASN found for $ip"
             else
-                echo "ASN: $asn"
+                echo "ASN: AS$asn"
             fi
         done
     fi
@@ -37,7 +37,7 @@ if [ $# -eq 1 ]; then
         if [ -z "$asn" ]; then
             echo "No ASN found for $1"
         else
-            echo "ASN: $asn"
+            echo "ASN: AS$asn"
         fi
     # Otherwise, assume it's a domain
     else
