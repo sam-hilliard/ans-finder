@@ -28,6 +28,14 @@ or
 cat domains.txt | ./asn_finder.sh
 ```
 
+### Running in Quiet Mode
+
+To run `asn_finder.sh` in quiet mode, use the `-q` option. This option suppresses additional output and only prints the ASNs, each separated by a new line.
+
+```bash
+./asn_finder.sh -q example.com
+```
+
 ### Example Usage
 
 Suppose `domains.txt` contains the following list of domains:
@@ -46,7 +54,6 @@ Domain: anotherdomain.com
 IP Address: [Resolved IP Address]
 ASN: [ASN]
 -----------------------------------
-```
 
 ### Notes
 
