@@ -54,6 +54,7 @@ Domain: anotherdomain.com
 IP Address: [Resolved IP Address]
 ASN: [ASN]
 -----------------------------------
+```
 
 ### Notes
 
